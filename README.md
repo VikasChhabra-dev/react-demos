@@ -1,16 +1,54 @@
-# React + Vite
+# React Demos (10 Beginner Projects in 1 App) 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository contains **10 simple React demo applications** built inside a **single Vite + React project**.
 
-Currently, two official plugins are available:
+It is perfect for:
+- Beginners learning React
+- Practicing `useState`, `useEffect`, props, lists, forms
+- Building a small portfolio of mini projects
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 📌 Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **React (JavaScript)**
+- **Vite**
+- **SWC** (fast compiler)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✅ Included Demo Apps
+
+| #  | Demo App | Concepts Covered |
+|---:|----------|------------------|
+| 1  | Counter App | `useState`, button click |
+| 2  | Todo List | Lists, `.map()`, add/delete/toggle |
+| 3  | Simple Calculator | Controlled inputs, basic math |
+| 4  | Digital Clock | `useEffect`, `setInterval` |
+| 5  | Stopwatch | Timers, start/pause/reset |
+| 6  | Search Filter | Filtering arrays, live search |
+| 7  | Login Form | Controlled form, basic validation |
+| 8  | Notes App | CRUD + `localStorage` |
+| 9  | Weather App | API calls using `fetch` |
+| 10 | Image Gallery | Grid, preview, component state |
+
+---
+
+## 📂 Project Structure
+
+```txt
+react-demos/
+  src/
+    demos/
+      CalculatorDemo.jsx
+      ClockDemo.jsx
+      CounterDemo.jsx
+      GalleryDemo.jsx
+      LoginDemo.jsx
+      NotesDemo.jsx
+      SearchFilterDemo.jsx
+      StopwatchDemo.jsx
+      TodoDemo.jsx
+      WeatherDemo.jsx
+    App.jsx
+    main.jsx
