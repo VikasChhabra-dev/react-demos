@@ -33,6 +33,8 @@ It is perfect for:
 | 10 | Image Gallery | Grid, preview, component state |
 
 ---
+<img width="1160" height="609" alt="image" src="https://github.com/user-attachments/assets/f97800b8-b342-42bb-bbad-6ddc87a12189" />
+
 
 ## 📂 Project Structure
 
